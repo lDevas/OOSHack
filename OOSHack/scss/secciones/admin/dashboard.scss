@@ -1,0 +1,31 @@
+.cuadro-dashboard {
+  * {
+    color: white;
+  }
+  background: #444;
+  padding: 40px 30px;
+  display: block;
+}
+
+.cuadro-bienvenida {
+  background: $btn-succ-bg;
+}
+
+.cuadro-mensajes {
+  background: $btn-pri-bg;
+
+  > div {
+    display: inline-block;
+  }
+  > div:not(last-child) {
+    margin-right: 15px;
+  }
+  .icon-mail {
+    display: block;
+    font-size: 38px;
+  }
+  h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+}
